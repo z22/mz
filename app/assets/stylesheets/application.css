@@ -6,3 +6,14 @@
  *= require_tree .
  *= require bootstrap_and_overrides
 */
+
+.linkedin {margin-left: 15px;}
+
+.MZ {
+  margin-top: 60px;
+  margin-left: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 60px;
+  color: white;
+}
+

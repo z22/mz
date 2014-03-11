@@ -1,4 +1,10 @@
 Melzhang::Application.routes.draw do
+  resources :abouts
+
+  resources :projects
+
+  resources :contacts
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
