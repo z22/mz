@@ -53,4 +53,3 @@ gem 'twitter-bootstrap-rails'
 gem 'mail_form'
 gem 'simple_form'
 gem 'haml'
-

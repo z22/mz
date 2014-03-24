@@ -1,4 +1,61 @@
-<h1>Projects Page</h1>
+<h1 class="projects-header">My Projects</h1>
+<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+<!-- carousel -->
+<div id="carousel-projects" class="carousel slide container" data-ride="carousel" style=" margin: 0 auto">
+  <ol class="carousel-indicators" style="">
+    <li data-target="#carousel-projects" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-projects" data-slide-to="1"></li>
+    <li data-target="#carousel projects" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <div class="inner-item">
+         <%= link_to (image_tag("startuplandscapes_screenshot"), "http://startups.mankindforward.com/" %>
+      <!-- <img src="775.jpg" alt="http://www.ornametals1.com/Art-%20Violin-%20Cello%20Players%20Lg.jpg" style="height: 500px"> -->
+      </div>
+      <div class="carousel-caption">
+        <p>Startup Landscapes</p>
+        <p>Navigate the continuously changing world of startups. Crunchbase..</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="inner-item">
+        <img src="http://www.artrenewal.org/artwork/839/839/5192/man_playing_a_cello-large.jpg" alt="">
+    </div>
+      <div class="carousel-caption">
+        <p>Image Two</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="inner-item">
+        <img src="http://placehold.it/1200x800" alt="">
+      </div>
+      <div class="carousel-caption">
+        <p>Image 333</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-projects" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left">&lsaquo;</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-projects" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right">&rsaquo;</span>
+  </a>
+</div>
+
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel();
+      interval: 3000
+  });
+</script>
+<!-- end carousel -->
+
+
 
 <table>
   <thead>
