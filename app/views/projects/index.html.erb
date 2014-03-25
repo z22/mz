@@ -12,28 +12,29 @@
   <div class="carousel-inner">
     <div class="item active">
       <div class="inner-item">
-         <%= link_to (image_tag("startuplandscapes_screenshot"), "http://startups.mankindforward.com/" %>
-      <!-- <img src="775.jpg" alt="http://www.ornametals1.com/Art-%20Violin-%20Cello%20Players%20Lg.jpg" style="height: 500px"> -->
+        <!--width:430px, height:700px-->
+         <%= link_to image_tag("rsz_startuplandscapes_screenshot.jpg"), "http://startups.mankindforward.com/", :target => "_blank" %>
       </div>
       <div class="carousel-caption">
         <p>Startup Landscapes</p>
         <p>Navigate the continuously changing world of startups. Crunchbase..</p>
+        <br>
       </div>
     </div>
     <div class="item">
       <div class="inner-item">
-        <img src="http://www.artrenewal.org/artwork/839/839/5192/man_playing_a_cello-large.jpg" alt="">
+        <%= link_to image_tag("rsz_google.jpg", :alt => "http://www.google.com"), "http://www.google.com", :target => "_blank" %>
     </div>
       <div class="carousel-caption">
-        <p>Image Two</p>
+        <p>GOOGLE</p>
       </div>
     </div>
     <div class="item">
       <div class="inner-item">
-        <img src="http://placehold.it/1200x800" alt="">
+        <%= link_to image_tag("rsz_aboutme.jpg", :alt => "about.me/melzhang"), "about.me/melzhang", :target => "_blank" %>
       </div>
       <div class="carousel-caption">
-        <p>Image 333</p>
+        <p>About.me</p>
       </div>
     </div>
   </div>
@@ -56,27 +57,3 @@
 <!-- end carousel -->
 
 
-
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @projects.each do |project| %>
-      <tr>
-        <td><%= link_to 'Show', project %></td>
-        <td><%= link_to 'Edit', edit_project_path(project) %></td>
-        <td><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Project', new_project_path %>

@@ -18,35 +18,36 @@
 </head>
 
 <body>
-  <h1 class='MZ'>Mel Zhang</h1>
   <div class="linkedin">
     <a href="http://www.linkedin.com/in/melzhang/" style="color: #4875B4"><i class="fa fa-linkedin-square fa-2x"></i></a>
   </div>
 
 <!-- navbar -->
 <div class="navbar navbar-fixed-top navbar-inverse">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </a>
-        <div class="nav-collapse">
-          <ul class="nav">
-            <li><%= link_to "Projects", projects_path %></li>
-            <li><%= link_to "About", abouts_path %></li>
-            <li><%= link_to "Contact", new_contact_path %></li>
-          </ul>
-        </div>
+  <div class="navbar-header">
+    <p></p>
+  </div>
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="navbar-logo" href="<%= root_url %>">Mel Zhang</a>
+        <ul class="nav">
+          <li><%= link_to "Projects", projects_path %></li>
+          <li><%= link_to "About", abouts_path %></li>
+          <li><%= link_to "Contact", new_contact_path %></li>
+        </ul>
       </div>
     </div>
-  </div>
+</div>
 <!-- navbar end -->
 
 <%= yield %>
 
 
+<div class="footer">
+  <div class="footer-text">
+  <p><%= link_to "Mel Zhang", "http://about.me/melzhang" %> &copy;<%= Time.now.year%></p>
+  </div>
+</div>
 
 </body>
 

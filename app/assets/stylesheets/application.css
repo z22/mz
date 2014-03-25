@@ -3,20 +3,70 @@
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
- *= require flexslider.css
  *= require_tree .
 */
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300|Kaushan+Script);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300|Kaushan+Script|Lato);
 
 .linkedin {
   margin-left: 50px;
   margin-top: 25px;
 }
 
-.MZ {
-  margin-left: 30px;
-  font-family: 'Kaushan Script', sans-serif;
-  font-size: 60px;
-  color: white;
+.linkedin a:hover {
+  background-color: transparent;
 }
 
+.MZ {
+  margin-left: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 60px;
+  color: #30ACFF;
+}
+
+body {
+  background-color: transparent;
+}
+
+html {
+  /*background: url(775.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  background-color: #eee;
+}
+
+.footer {
+  /*position: fixed;*/
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  background-color: #30ACFF;
+}
+
+.footer-text {
+  padding-top: 4px;
+  padding-left: 40px;
+  color: #fff;
+  font-family: Lato;
+  font-style: bold;
+  opacity: 1;
+}
+
+.footer-text a a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  color: #eee;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.footer-text a a:active {
+  color: #fff;
+  text-decoration: none;
+}

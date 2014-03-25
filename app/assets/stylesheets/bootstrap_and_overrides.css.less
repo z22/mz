@@ -1,6 +1,6 @@
 @import "twitter/bootstrap/bootstrap";
 
-body { padding-top: 60px; }
+body { padding-top: 80px; }
 
 @import "twitter/bootstrap/responsive";
 
@@ -32,3 +32,81 @@ body { padding-top: 60px; }
 // Example:
 // @linkColor: #ff0000;
 
+.navbar-header {
+  padding: 10px;
+}
+a.navbar-logo {
+  padding-top: 15px;
+  font-family: Lato;
+  text-decoration: none;
+  font-size: 30px;
+  &:visited {
+    color: #30ACFF;
+    background-color: transparent;
+  }
+  &:hover {
+    color: #30ACFF;
+    background-color: transparent;
+  }
+}
+
+
+.navbar-inverse .container {
+  width: auto;
+  background-color: #eee;
+  height: 60px;
+}
+
+.navbar-inverse .navbar-inner {
+/*  float: right;*/
+  border-bottom-color: transparent;
+  background-image: none;
+  background-color: transparent;
+}
+
+.navbar .nav >li > a {
+  color: #30ACFF;
+  &:hover {
+    color: #eee;
+    background-color: #30ACFF;
+  }
+}
+.container .nav {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
+  float: right;
+}
+
+.carousel {
+  width: 700px;
+}
+
+.inner-item {
+  text-align: center;
+}
+
+.carousel-indicators {
+  left: 48%;
+  margin-top: 400px;
+}
+
+.carousel-indicators li {
+  background-color: #30ACFF;
+}
+
+.carousel-indicators li.active {
+  background-color: #fff;
+}
+
+.carousel-caption {
+  border-top: 3px solid #30ACFF;
+}
+
+.carousel-control {
+  color: #30ACFF;
+}
+
+.glyphicon {
+  color: #30ACFF;
+}
