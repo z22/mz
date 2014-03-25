@@ -1,11 +1,10 @@
-<div class='contactform'>
-= simple_form_for @contact do |f|
-  = f.input :name, label: 'Your Name', :required => false
-  = f.input :subject, :required => false
-  = f.input :email, label: 'Your Email Address', :required => false
-  = f.input :message, :as => :text, :required => false
-  -#the hidden .css class wrapped around the nickname field is to see if a spambot is filling in all the fields, whereas a human would likely not fill in the hidden field.-#
-  .hidden
-    = f.input :nickname, :hint => 'Leave this field blank!'
-  = f.button :submit, 'Send', :class => 'btn-custom'
-</div>
+.contactform
+  = simple_form_for @contact do |f|
+    = f.input :name, label: 'Your Name', :required => false
+    = f.input :subject, :required => false
+    = f.input :email, label: 'Your Email Address', :required => false
+    = f.input :message, :as => :text, :required => false
+    -#the hidden .css class wrapped around the nickname field is to see if a spambot is filling in all the fields, whereas a human would likely not fill in the hidden field.-#
+    .hidden
+      = f.input :nickname, :hint => 'Leave this field blank!'
+    = f.button :submit, 'Send', :class => 'btn-custom'

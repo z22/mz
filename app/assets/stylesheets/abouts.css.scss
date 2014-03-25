@@ -1,3 +1,15 @@
 // Place all the styles related to the Abouts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+ul.skills {
+  list-style-type: none;
+  padding-top: 20px;
+  font-family: Lato;
+  font-size: 18px;
+  color: #777;
+}
+
+ul.skills li {
+  padding-bottom: 7px;
+}

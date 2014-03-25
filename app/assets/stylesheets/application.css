@@ -16,11 +16,9 @@
   background-color: transparent;
 }
 
-.MZ {
-  margin-left: 30px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 60px;
+.fa.fa-check {
   color: #30ACFF;
+  padding-left: 20px;
 }
 
 body {
