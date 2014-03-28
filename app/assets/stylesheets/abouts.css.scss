@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .fa.fa-check {
-  color: #30ACFF;
+  color: #8A8AE6;
   padding-left: 20px;
 }
 
@@ -29,5 +29,28 @@ ul.skills li {
   width: 200px;
   background-color: #BCD2EE;
   margin-left: 100px;
-  margin-top: 200px;
+  margin-right: 10px;
+  margin-top: 100px;
+  display: inline-block;
+}
+
+.bio {
+  display: inline-block;
+  background-color: #A1A1EB;
+  border-style: dashed;
+  border-color: #5050A7;
+  border-radius: 5px;
+  border-width: 3px;
+  height: 300px;
+  width: 550px;
+  padding-left: 10px;
+}
+
+.bio-header {
+  font-family: Lato;
+  font-size: 30px;
+}
+
+.bio p {
+  font-size: 20px;
 }
