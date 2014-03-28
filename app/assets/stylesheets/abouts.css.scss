@@ -2,14 +2,32 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.fa.fa-check {
+  color: #30ACFF;
+  padding-left: 20px;
+}
+
 ul.skills {
   list-style-type: none;
   padding-top: 20px;
   font-family: Lato;
   font-size: 18px;
   color: #777;
+  margin-left: 0px;
 }
 
 ul.skills li {
   padding-bottom: 7px;
+}
+
+.skillbox {
+  border-style: dashed;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: #6495ED;
+  height: 300px;
+  width: 200px;
+  background-color: #BCD2EE;
+  margin-left: 100px;
+  margin-top: 200px;
 }

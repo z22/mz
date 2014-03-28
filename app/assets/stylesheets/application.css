@@ -7,18 +7,12 @@
 */
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300|Kaushan+Script|Lato);
 
-.linkedin {
-  margin-left: 50px;
-  margin-top: 25px;
+.linkedin a:link {
+  background-color: transparent;
 }
 
 .linkedin a:hover {
   background-color: transparent;
-}
-
-.fa.fa-check {
-  color: #30ACFF;
-  padding-left: 20px;
 }
 
 body {
@@ -38,22 +32,38 @@ html {
   /*position: fixed;*/
   position: absolute;
   left: 0px;
-  bottom: 0px;
-  height: 30px;
+  bottom: 20px;
+  height: 60px;
   width: 100%;
   background-color: #30ACFF;
+  border-top: 1px dashed white;
+  border-bottom: 1px dashed white;
+}
+
+.footer .linkedin {
+  margin-left: 300px;
+  margin-top: -25px;
 }
 
 .footer-text {
-  padding-top: 4px;
-  padding-left: 40px;
+  margin-top: 20px;
+  padding-left: 30px;
   color: #fff;
   font-family: Lato;
+  font-size: ;
   font-style: bold;
-  opacity: 1;
 }
 
-.footer-text a a:visited {
+.footer-text p {
+  display: inline;
+}
+
+.footer-text a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-text a:visited {
   color: #fff;
   text-decoration: none;
 }
