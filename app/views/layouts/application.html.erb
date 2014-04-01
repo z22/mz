@@ -22,11 +22,13 @@
 <!-- navbar -->
 <div class="navbar navbar-fixed-top navbar-inverse">
   <div class="navbar-header">
-    <p></p>
 </div>
   <div class="navbar-inner">
     <div class="container">
       <a class="navbar-logo" href="<%= root_url %>">Mel Zhang</a>
+      <div class="linkedin">
+      <a href="http://www.linkedin.com/in/melzhang/" style="color: #8A8AE6"><i class="fa fa-linkedin-square fa-3x"></i></a>
+  </div>
       <ul class="nav">
         <li class="links"><%= link_to "Projects", projects_path %></li>
         <li class="links"><%= link_to "About", abouts_path %></li>
@@ -40,14 +42,14 @@
 <%= yield %>
 
 
-<div class="footer">
+<!-- <div class="footer">
   <div class="footer-text">
     <p><%= link_to "Mel Zhang", "http://about.me/melzhang" %> &copy;<%= Time.now.year%></p>
   </div>
   <div class="linkedin">
       <a href="http://www.linkedin.com/in/melzhang/" style="color: white"><i class="fa fa-linkedin-square fa-3x"></i></a>
   </div>
-</div>
+</div> -->
 
 </body>
 

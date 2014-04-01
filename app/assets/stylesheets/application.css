@@ -5,7 +5,7 @@
  *= require_self
  *= require_tree .
 */
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300|Kaushan+Script|Lato);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300|Kaushan+Script|Lato|Alegreya+Sans+SC|Poiret+One|La+Belle+Aurore|Swanky+and+Moo+Moo|Special+Elite|Delius|Amaranth|Architects+Daughter|Over+the+Rainbow);
 
 .linkedin a:link {
   background-color: transparent;
@@ -15,27 +15,33 @@
   background-color: transparent;
 }
 
+.linkedin {
+  margin-left: 400px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+
 body {
   background-color: transparent;
 }
 
 html {
-  /*background: url(775.jpg) no-repeat center center fixed;
+  background: url(ledge1light.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;*/
-  background-color: #eee;
+  background-size: cover;
+  /*background-color: #eee;*/
 }
 
-.footer {
-  /*position: fixed;*/
+
+/*.footer {
   position: absolute;
   left: 0px;
   bottom: 20px;
   height: 60px;
   width: 100%;
-  /*background-color: #30ACFF; blue*/
   background-color: #8A8AE6;
   border: none;
 }
@@ -78,3 +84,4 @@ html {
   color: #fff;
   text-decoration: none;
 }
+*/
