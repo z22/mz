@@ -37,8 +37,7 @@ html {
   width: 100%;
   /*background-color: #30ACFF; blue*/
   background-color: #8A8AE6;
-  border-top: 1px dashed white;
-  border-bottom: 1px dashed white;
+  border: none;
 }
 
 .footer .linkedin {
