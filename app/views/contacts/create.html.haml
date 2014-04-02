@@ -1,7 +1,7 @@
-  %h1 Thank you for your message.
-
+.contact-confirmed
+  %h1 Thanks for your message.
+  %p{:style => "font-size: 20px;"}
+    \&nbsp; I'll get back to you soon.
+  %br
   %p
-    We'll get back to you as soon as possible.
-
-  %p
-    = link_to 'Home', root_url, :class => 'button'
+    = link_to 'Send Another Message', new_contact_path, :class => 'button'

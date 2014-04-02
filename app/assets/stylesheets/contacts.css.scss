@@ -2,12 +2,51 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.contactheader {
+  font-family: Lato;
+  color: #555;
+  float: right;
+  margin-right: 350px;
+  margin-top: 70px;
+  position: relative;
+}
+
+.contact-confirmed {
+  font-family: Lato;
+  color: #555;
+  float: right;
+  margin-right: 350px;
+  margin-top: 70px;
+  position: relative;
+}
+
+.contact-confirmed a {
+  padding: 3px;
+  border-radius: 7px;
+  text-decoration: none;
+  background-color: #8A8AE6;
+  color: #fff;
+  &:visited {
+    color: #fff;
+    background-color: #8A8AE6;
+  }
+  &:hover {
+    color: #fff;
+    background-color: #8A8AE6;
+  }
+}
+
 .contactform {
   font-family: Lato, sans-serif;
   float: right;
-  margin-right: 100px;
-  margin-top: 70px;
+  margin-right: 325px;
+  margin-top: 25px;
   color: #8A8AE6;
+  padding: 20px;
+  background-color: #ddd;
+  border-radius: 7px;
+  position: relative;
+  clear: both;
 }
 
 .btn-custom {
@@ -25,6 +64,7 @@
   color: #fff !important;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.56);
   -webkit-font-smoothing: antialiased;
+  font-family: Lato;
   border-radius: 8px;
   font-weight: bold;
 }

@@ -1,70 +1,72 @@
+<!-- about -->
 <div class="about">
-<div class="skillbox">
-  <ul class="skills">
-    <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;Ruby on Rails</li>
-    <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;CSS</li>
-    <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;HTML</li>
-  </ul>
-</div>
+  <!-- <a id="About"></a> -->
+  <div class="skillbox">
+    <ul class="skills">
+      <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;Ruby on Rails</li>
+      <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;CSS</li>
+      <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;HTML</li>
+    </ul>
+  </div>
 
-<div class="bio">
-  <h1 class="bio-header">Header</h1>
-  <br>
-  <p>testing testing testing</p>
+  <div class="bio">
+    <h1 class="bio-header">Header</h1>
+    <br>
+    <p>testing testing testing</p>
+  </div>
 </div>
-
-</div>
-
 
 
 <!-- carousel -->
+<a id="Projects"></a>
 <div class="caro">
-<div id="carousel-projects" class="carousel slide container" data-ride="carousel" style=" margin: 0 auto">
-  <ol class="carousel-indicators" style="">
-    <li data-target="#carousel-projects" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-projects" data-slide-to="1"></li>
-    <li data-target="#carousel projects" data-slide-to="2"></li>
-  </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <div class="inner-item">
-        <!--height:430px, width:700px-->
-         <%= link_to image_tag("sl.jpg"), "http://startups.mankindforward.com/", :target => "http://startups.mankindforward.com/" %>
+  <div id="carousel-projects" class="carousel slide container" data-ride="carousel" style=" margin: 0 auto">
+    <ol class="carousel-indicators" style="">
+      <li data-target="#carousel-projects" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-projects" data-slide-to="1"></li>
+      <li data-target="#carousel projects" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="inner-item">
+          <!--height:430px, width:700px-->
+           <%= link_to image_tag("sl.jpg"), "http://startups.mankindforward.com/", :target => "http://startups.mankindforward.com/" %>
+        </div>
+        <div class="carousel-caption">
+          <p>Startup Landscapes</p>
+          <p>Navigate the continuously changing world of startups. Crunchbase..</p>
+          <br>
+        </div>
       </div>
-      <div class="carousel-caption">
-        <p>Startup Landscapes</p>
-        <p>Navigate the continuously changing world of startups. Crunchbase..</p>
-        <br>
+      <div class="item">
+        <div class="inner-item">
+          <%= link_to image_tag("rsz_google.jpg", :alt => "http://www.google.com"), "http://www.google.com", :target => "_blank" %>
+      </div>
+        <div class="carousel-caption">
+          <p>GOOGLE</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="inner-item">
+          <%= link_to image_tag("rsz_aboutme.jpg", :alt => "about.me/melzhang"), "about.me/melzhang", :target => "_blank" %>
+        </div>
+        <div class="carousel-caption">
+          <p>About.me</p>
+        </div>
       </div>
     </div>
-    <div class="item">
-      <div class="inner-item">
-        <%= link_to image_tag("rsz_google.jpg", :alt => "http://www.google.com"), "http://www.google.com", :target => "_blank" %>
-    </div>
-      <div class="carousel-caption">
-        <p>GOOGLE</p>
-      </div>
-    </div>
-    <div class="item">
-      <div class="inner-item">
-        <%= link_to image_tag("rsz_aboutme.jpg", :alt => "about.me/melzhang"), "about.me/melzhang", :target => "_blank" %>
-      </div>
-      <div class="carousel-caption">
-        <p>About.me</p>
-      </div>
-    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-projects" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left">&lsaquo;</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-projects" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right">&rsaquo;</span>
+    </a>
   </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-projects" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left">&lsaquo;</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-projects" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right">&rsaquo;</span>
-  </a>
-</div>
 </div>
 
 <script>

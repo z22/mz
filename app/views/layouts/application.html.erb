@@ -26,20 +26,24 @@
   <div class="navbar-inner">
     <div class="container">
       <a class="navbar-logo" href="<%= root_url %>">Mel Zhang</a>
-      <div class="linkedin">
-      <a href="http://www.linkedin.com/in/melzhang/" style="color: #8A8AE6"><i class="fa fa-linkedin-square fa-3x"></i></a>
-  </div>
+      <!-- <div class="aboutmeicon">
+        <%= link_to image_tag('aboutmeicon.jpg'), 'http://about.me/melzhang', target: "_blank" %>
+      </div> -->
       <ul class="nav">
-        <li class="links"><%= link_to "Projects", projects_path %></li>
-        <li class="links"><%= link_to "About", abouts_path %></li>
+        <li class="links"><a href="<%= root_path %>#About">About</a></li>
+        <li class="links"><a href="<%= root_path %>#Projects">Projects</a></li>
         <li class="links"><%= link_to "Contact", new_contact_path %></li>
       </ul>
+      <div class="linkedin">
+        <a href="http://www.linkedin.com/in/melzhang/" target="_blank" style="color: #8A8AE6"><i class="fa fa-linkedin-square fa-2x"></i></a>
+      </div>
       </div>
     </div>
 </div>
 <!-- navbar end -->
 
-<%= yield %>
+
+
 
 
 <!-- <div class="footer">
@@ -50,6 +54,9 @@
       <a href="http://www.linkedin.com/in/melzhang/" style="color: white"><i class="fa fa-linkedin-square fa-3x"></i></a>
   </div>
 </div> -->
+
+<%= yield %>
+
 
 </body>
 

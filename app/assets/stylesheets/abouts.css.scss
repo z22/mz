@@ -2,6 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.about {
+  position: relative;
+}
 
 .fa.fa-check {
   color: #8A8AE6;
@@ -54,45 +57,4 @@ ul.skills li {
 
 .bio p {
   font-size: 20px;
-}
-
-
-.caro {
-  margin-right: 80px;
-  margin-top: 150px;
-  float: right;
-  clear: top;
-  display: inline-block;
-}
-.carousel {
-  width: 800px !important;
-}
-
-.inner-item {
-  text-align: center;
-}
-
-.carousel-indicators {
-  left: 48%;
-  margin-top: 420px;
-}
-
-.carousel-indicators li {
-  background-color: #8A8AE6;
-}
-
-.carousel-indicators li.active {
-  background-color: #fff;
-}
-
-.carousel-caption {
-  border-top: 3px solid #8A8AE6;
-}
-
-.carousel-control {
-  color: #8A8AE6;
-}
-
-.glyphicon {
-  color: #8A8AE6;
 }
