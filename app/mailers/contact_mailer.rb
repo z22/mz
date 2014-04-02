@@ -4,4 +4,5 @@ class ContactMailer < ActionMailer::Base
   def contactform_email(contact)
       @contact = contact
       # mail(:to => zeemelon@gmail.com, :subject => '#' )
+  end
 end
