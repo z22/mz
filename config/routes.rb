@@ -4,7 +4,7 @@ Melzhang::Application.routes.draw do
 
   resources :projects
 
-  resources :contacts
+  resources :contacts, only: [:new, :create]
 
 
 

@@ -1,0 +1,15 @@
+<div class="contact-confirmed">
+  <h1> Thanks for your message.</h1>
+  <p style="font-size: 20px;">&nbsp; I'll get back to you soon.</p>
+  <br>
+  <p><%= link_to 'Send Another Message', new_contact_path, :class => 'button' %></p>
+</div>
+
+<div>
+  <% flash.each do |key, value| %>
+    <div>
+      <a href="#" data-dismiss="alert">×</a>
+        <%= value %>
+    </div>
+  <% end %>
+</div>
