@@ -32,11 +32,12 @@
       <ul class="nav">
         <li class="links"><a href="<%= root_path %>#About">About</a></li>
         <li class="links"><a href="<%= root_path %>#Projects">Projects</a></li>
-        <!-- <li class="links"><%= link_to "Contact", new_contact_path %></li>
-      </ul> -->
-      <div class="navbar-linkedin">
+        <!-- <li class="links"><a href="<%= root_path %>#Projects">Interests</a></li> -->
+        <!-- <li class="links"><%= link_to "Contact", new_contact_path %></li> -->
+      </ul>
+      <!-- <div class="navbar-linkedin">
         <a href="http://www.linkedin.com/in/melzhang/" target="_blank" style="color: #8A8AE6"><i class="fa fa-linkedin-square fa-2x"></i></a>
-      </div>
+      </div> -->
       </div>
     </div>
 </div>
@@ -52,6 +53,12 @@
   </div>
   <div class="footer-linkedin">
       <a href="http://www.linkedin.com/in/melzhang/" style="color: white" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+  </div>
+  <div class="footer-twitterbird">
+    <%= link_to image_tag('twitter-m.jpg', :alt => "https://twitter.com/zeemelon"), "https://twitter.com/zeemelon", :target => "_blank" %>
+  </div>
+  <div class="footer-bucketlistly">
+    <%= link_to image_tag('bucketlistly-white.jpg', :alt => "http://www.bucketlistly.com/users/zeemelon"), "http://www.bucketlistly.com/users/zeemelon", :target => "_blank" %>
   </div>
 </div>
 

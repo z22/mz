@@ -58,12 +58,44 @@ html {
   border: none;
 }
 
-.footer .footer-linkedin {
+.footer-linkedin {
   margin-left: 200px;
   margin-top: -22px;
 }
 
 .footer-linkedin a {
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.footer-twitterbird {
+  position: absolute;
+  margin-left: 240px;
+  margin-top: -25px;
+  display: inline-block !important;
+  height: 25px;
+  width: 25px;
+}
+
+.footer-twitterbird a {
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+
+.footer-bucketlistly {
+  position: absolute;
+  margin-left: 280px;
+  margin-top: -23px;
+  display: inline-block !important;
+  height: 25px;
+  width: 25px;
+
+}
+
+.footer-bucketlistly a {
   &:hover {
     background-color: transparent;
   }
