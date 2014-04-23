@@ -6,7 +6,7 @@
   font-family: Lato;
   font-size: 36px;
   color: #555 !important;
-  font-weight: 200;
+  font-weight: 700;
   margin-right: 750px;
   padding-top: 150px;
   float: right;
@@ -14,10 +14,16 @@
   position: relative;
 }
 
+.resources {
+  font-family: Lato;
+  font-weight: 700;
+}
+
 .aboutlist {
-  /*ist-style-type: none;*/
-  font-size: 18px;
+  /*list-style-type: none;*/
+  font-size: 20px;
   margin-bottom: 12px;
+  font-family: Lato;
 }
 
 .about {
@@ -42,12 +48,18 @@
 
 .fa.fa-check {
   color: #8A8AE6;
+  padding-left: 16px;
+}
+
+.fa-minus {
+  color: #8A8AE6;
   padding-left: 20px;
 }
 
 ul.skills {
   list-style-type: none;
-  padding-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
   font-family: Lato;
   font-size: 18px;
   color: #555;
@@ -59,8 +71,8 @@ ul.skills li {
 }
 
 .skillbox {
-  height: 300px;
-  width: 200px;
+  /*height: 300px;
+  width: 200px;*/
   background-color: transparent;
   position: relative;
   float: right;
@@ -71,6 +83,8 @@ ul.skills li {
   margin-top: 100px;*/
   /*display: inline;*/
   border-radius: 7px;
+  border: solid 2px #ccc;
+  padding: 10px;
 }
 
 .bio {
@@ -80,7 +94,7 @@ ul.skills li {
   width: 600px;
   float: right;
   margin-right: 20px;
-  margin-top: 60px;
+  margin-top: 0px;
   padding-left: 10px;
   color: #555;
 }

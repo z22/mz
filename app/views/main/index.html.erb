@@ -2,6 +2,7 @@
 <a id="About"></a>
 <div class="about">
   <div class="skillbox">
+    <h4 class="resources">What I Can Use</h4>
     <ul class="skills">
       <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;Ruby on Rails</li>
       <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;CSS</li>
@@ -9,36 +10,47 @@
       <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;HAML</li>
       <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;Twitter Bootstrap</li>
       <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;Git/GitHub</li>
+      <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;Heroku</li>
       <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;Adobe Photoshop</li>
     </ul>
-    <!--
+    <h4 class="resources">What I Am Improving On</h4>
     <ul class="skills">
-      <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;Ruby on Rails</li>
-      <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;CSS</li>
-      <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;HTML</li>
-      <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;HAML</li>
-      <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;Twitter Bootstrap</li>
-      <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;Git/GitHub</li>
-      <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;Adobe Photoshop</li>
+      <li><i class="fa fa-minus fa-lg"></i>&nbsp;&nbsp;&nbsp;MySQL</li>
+      <li><i class="fa fa-minus fa-lg"></i>&nbsp;&nbsp;&nbsp;Javascript</li>
+      <!-- <li><i class="fa fa-minus fa-lg"></i>&nbsp;&nbsp;&nbsp;#</li>
+      <li><i class="fa fa-minus fa-lg"></i>&nbsp;&nbsp;&nbsp;#</li>
+      <li><i class="fa fa-minus fa-lg"></i>&nbsp;&nbsp;&nbsp;#</li>
+      <li><i class="fa fa-minus fa-lg"></i>&nbsp;&nbsp;&nbsp;#</li>
+      <li><i class="fa fa-minus fa-lg"></i>&nbsp;&nbsp;&nbsp;#</li> -->
     </ul>
-  -->
   </div>
 
 
   <div class="bio">
-    <h1 class="bio-header">About Mel</h1>
+    <h1 class="bio-header">About Me</h1>
     <br>
     <ul class="aboutlist">
-      <li class="aboutlist">Self-taught Ruby on Rails developer.</li>
+      <li class="aboutlist">Self-taught <span style="color: #B02B2C">Ruby on Rails</span> developer.</li>
       <li class="aboutlist">Earned a Neuroscience B.A. (Has fond memory of being bitten by a lab rat.)</li>
-      <li class="aboutlist">Changed career direction after reading Marc Andreessen’s 2011 article "<%= link_to 'Why Software Is Eating the World', 'http://online.wsj.com/news/articles/SB10001424053111903480904576512250915629460' %>".</li>
+      <li class="aboutlist">Inspired by Marc Andreessen’s 2011 article "<%= link_to 'Why Software Is Eating the World', 'http://online.wsj.com/news/articles/SB10001424053111903480904576512250915629460', target: '_blank' %>".</li>
       <li class="aboutlist">Likes health & tech.</li>
+    </ul>
 
-    <p></p>
-    <p></p>
-    <!-- <p>I studied neuroscience at Wellesley College with the (rather limited) mindset that my future either lay in scientific research or medicine. Originally my plan was to go into medicine (neurology is very interesting), but I realized I wanted more opportunity for creativity, innovation, and collaboration, and that I enjoyed working with computers. After being introduced to Marc Andreessen’s 2011 article "<%= link_to 'Why Software Is Eating the World', 'http://online.wsj.com/news/articles/SB10001424053111903480904576512250915629460' %>", I became excited for the potential that technology has to change industries (such as healthcare and education) and to improve people’s lives. With the wide array of online resources available, I've been teaching myself Ruby on Rails, CSS, HTML, MySQL, and more. </p> -->
-</div>
-</div>
+    <br>
+    <br>
+
+    <h2>How Am I Learning Web Development?</h2>
+    <ul class="aboutlist">
+      <h4 class="resources">Online Resources:</h4>
+      <li class="aboutlist"><%= link_to 'Codecademy.com', "http://www.codecademy.com", target: '_blank' %> </li>
+      <li class="aboutlist"><%= link_to 'Lynda.com', 'http://www.lynda.com', target: '_blank' %></li>
+      <li class="aboutlist"><%= link_to 'Railscasts.com', 'http://www.railscasts.com', target: '_blank' %></li>
+      <h4 class="resources">Books:</h4>
+      <li class="aboutlist"><i>Agile Web Development with Rails 4</i>&nbsp;&nbsp;(The Pragmatic Programmers)</li>
+      <li class="aboutlist"><%= link_to raw('<i>Ruby on Rails Tutorial</i> &nbsp; by Michael Hartl'),'http://ruby.railstutorial.org/ruby-on-rails-tutorial-book', target: '_blank' %></li>
+    </ul>
+</div> <!-- Bio end -->
+</div> <!-- About end -->
 
 
 <!-- carousel -->
