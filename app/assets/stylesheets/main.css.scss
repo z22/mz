@@ -2,6 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.homepage {
+  position: relative;
+  /*padding-bottom: 400px;*/
+  height: 800px;
+  width: 600px;
+  float: right;
+  margin-right: 200px;
+  margin-top: 0px;
+}
+
+
 .projects-header {
   font-family: Lato;
   font-size: 36px;
@@ -27,6 +38,7 @@
 }
 
 .about {
+  clear: both;
   position: relative;
   padding-top: 100px;
 }
