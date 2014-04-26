@@ -55,4 +55,4 @@ gem 'mail_form'
 gem 'simple_form'
 gem 'haml'
 gem 'guard-livereload'
-
+gem 'figaro' #secret token management

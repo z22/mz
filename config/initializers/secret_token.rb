@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Melzhang::Application.config.secret_key_base = '48503a9f1c01a5c4f43164e00cf535f0253c32e6afdbc00c5feaab7f4bd41ea0de5f5fc4965168d74bcfd11c246fae1ccbff7450a6e0e95ed7e9e53c713e666b'
+Melzhang::Application.config.secret_key_base = ENV['SECRET_TOKEN']
