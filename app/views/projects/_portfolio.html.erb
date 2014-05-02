@@ -1,26 +1,7 @@
-<!-- about -->
-<div class="about">
-  <!-- <a id="About"></a> -->
-  <div class="skillbox">
-    <ul class="skills">
-      <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;Ruby on Rails</li>
-      <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;CSS</li>
-      <li><i class="fa fa-check fa-lg"></i>&nbsp;&nbsp;&nbsp;HTML</li>
-    </ul>
-  </div>
-
-  <div class="bio">
-    <h1 class="bio-header">Header</h1>
-    <br>
-    <p>testing testing testing</p>
-  </div>
-</div>
-
-
 <!-- carousel -->
 <a id="Projects"></a>
+<h1 class="projects-header">Projects<h1>
 <div class="caro">
-
   <div id="carousel-projects" class="carousel slide container" data-ride="carousel" style=" margin: 0 auto">
     <ol class="carousel-indicators" style="">
       <li data-target="#carousel-projects" data-slide-to="0" class="active"></li>
@@ -32,31 +13,33 @@
     <div class="carousel-inner">
       <div class="item active">
         <div class="inner-item">
-          <!--height:430px, width:700px-->
-           <%= link_to image_tag("sl.jpg"), "http://startups.mankindforward.com/", :target => "http://startups.mankindforward.com/" %>
+          <!--height:460px, width:800px-->
+          <%= link_to image_tag("rsz_inspirez.jpg", :alt => "http://inspirez.herokuapp.com"), "http://inspirez.herokuapp.com", :target => "_blank" %>
         </div>
         <div class="carousel-caption">
-          <p>Startup Landscapes</p>
-          <p>Navigate the continuously changing world of startups. Crunchbase..</p>
+          <p>- INSPIREZ -</p>
+          <p>Get inspired. Take a break and read a random quote or watch a YouTube video.</p>
           <br>
         </div>
       </div>
       <div class="item">
         <div class="inner-item">
-          <%= link_to image_tag("rsz_google.jpg", :alt => "http://www.google.com"), "http://www.google.com", :target => "_blank" %>
+          <%= link_to image_tag("sl.jpg"), "http://startups-mankindforward.herokuapp.com/", :target => "http://startups-mankindforward.herokuapp.com/" %>
       </div>
         <div class="carousel-caption">
-          <p>GOOGLE</p>
+          <p>- Startup Landscapes -</p>
+          <p>A website for quick navigation of the continuously changing world of startups that displays current startups organized by industry. Uses the Crunchbase API.</p>
+          <br>
         </div>
       </div>
-      <div class="item">
+      <!--<div class="item">
         <div class="inner-item">
           <%= link_to image_tag("rsz_aboutme.jpg", :alt => "about.me/melzhang"), "about.me/melzhang", :target => "_blank" %>
         </div>
         <div class="carousel-caption">
           <p>About.me</p>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <!-- Controls -->

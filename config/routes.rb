@@ -1,7 +1,5 @@
 Melzhang::Application.routes.draw do
 
-  resources :abouts
-
   resources :projects
 
   resources :contacts, only: [:new, :create]
