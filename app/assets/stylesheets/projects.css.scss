@@ -2,17 +2,19 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-//carousel portfolio
+
 .projects-header {
-  font-family: Lato;
+  font-family: Bebas Neue;
   font-size: 36px;
-  color: #555 !important;
+  /*color: #555 !important;*/
+  color: #8A8AE6;
   font-weight: 700;
-  /*margin-right: 400px;*/
+  margin-left: 51%;
   padding-top: 150px;
-  float: right;
+  float: left;
   clear: both;
   position: relative;
+  border-bottom: 3px #8A8AE6 solid;
 }
 
 
@@ -74,6 +76,7 @@
     position: relative !important;
     background: #fff;
     cursor:pointer;
+    width: 80%;
   }
 
   .portfolio img {
@@ -122,6 +125,6 @@
 
 
     .mgscreenshot {
-      margin-left: 13%;
+      margin-left: 20%;
       margin-right: 0%;
     }
