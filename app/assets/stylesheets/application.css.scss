@@ -41,7 +41,7 @@ body {
 }
 
 html {
-  background: image-url('ledge1light.jpg') no-repeat center center fixed;
+  background: image-url('ledge1light_wrinkledpaper_dark.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -50,6 +50,14 @@ html {
 }
 
 
+.linkedin {
+  height: 38.8888893127441px;
+  width: 33.3333358764648px;
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  line-height: 35px;
+}
 
 
 .footer {
@@ -65,7 +73,14 @@ html {
 .footer-linkedin {
   margin-left: 200px;
   margin-top: -23px;
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  display: inline-block !important;
+}
 
+.footer-linkedin img {
+  display: block !important;
 }
 
 .fa-linkedin-square {
