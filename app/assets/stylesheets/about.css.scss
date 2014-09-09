@@ -79,7 +79,7 @@ ul.skills li {
 .bio {
   /*display: inline;*/
   background-color: transparent;
-  height: 600px;
+  /*height: 600px;*/
   width: 600px;
   float: right;
   margin-right: 20px;
@@ -90,8 +90,9 @@ ul.skills li {
 }
 
 .bio-header {
-  font-family: Lato;
-  font-size: 36px;
+  font-family: Bebas Neue;
+  font-size: 60px;
+  border-bottom: 3px #8A8AE6 solid;
 }
 
 .bio p {
