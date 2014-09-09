@@ -8,7 +8,7 @@
   font-size: 36px;
   color: #555 !important;
   font-weight: 700;
-  margin-right: 750px;
+  /*margin-right: 400px;*/
   padding-top: 150px;
   float: right;
   clear: both;
@@ -72,7 +72,7 @@
   .portfolio-wrapper {
     overflow:hidden;
     position: relative !important;
-    background: #666;
+    background: #fff;
     cursor:pointer;
   }
 
@@ -118,4 +118,10 @@
               background-color: transparent;
         }
 
+    }
+
+
+    .mgscreenshot {
+      margin-left: 13%;
+      margin-right: 0%;
     }
