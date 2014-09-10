@@ -10,8 +10,9 @@
 .aboutlist {
   /*list-style-type: none;*/
   font-size: 20px;
-  margin-bottom: 12px;
   font-family: Lato;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .about {
@@ -79,10 +80,9 @@ ul.skills li {
 .bio {
   /*display: inline;*/
   background-color: transparent;
-  /*height: 600px;*/
   width: 600px;
   float: right;
-  margin-right: 80px;
+  margin-right: 150px;
   margin-top: 0px;
   padding-left: 10px;
   padding-top: 100px;
