@@ -56,3 +56,4 @@ gem 'simple_form'
 gem 'haml'
 gem 'guard-livereload'
 gem 'figaro' #secret token management
+gem 'rails_admin'

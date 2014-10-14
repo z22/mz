@@ -2,6 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+html {
+  background: image-url('ledge1light_bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background-color: #eee;*/
+}
+
 
 .projects-header {
   font-family: Bebas Neue;
@@ -135,3 +144,45 @@
       margin-left: 20%;
       margin-right: 0%;
     }
+
+
+
+.page-header {
+  margin-top: 60px;
+  margin-left: 15px;
+  color: #0066FF;
+  font-family: Ostrich Sans Rounded;
+  font-size: 90px;
+  border-bottom: 2px solid #aaa;
+}
+
+.project-item {
+  float: left;
+  h3 {
+    font-family: Josefin Sans;
+    font-size: 40px;
+    a:link {
+      text-decoration: none;
+      color: #0066FF;
+    }
+    a:visited {
+      text-decoration: none;
+      color: #0066FF;
+    }
+    a:hover {
+      text-decoration: none;
+      background-color: transparent;
+      color: #fff;
+      -moz-transition: color 300ms;
+      -o-transition: color 300ms;
+      -webkit-transition: color 300ms;
+      transition: color 300ms;
+    }
+    a:active {
+      text-decoration: none;
+      color: #0066FF;
+    }
+  }
+
+}
+
