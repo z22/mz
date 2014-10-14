@@ -1,0 +1,17 @@
+
+%h1.page-header Mobogenie App Store
+
+.project-row-header
+  %h2 App Collection Banners
+- @projects_graphicdesign.each_with_index do |project, i|
+  .row.project-item
+    = link_to project.url do
+      = image_tag project.image_url, size: "700x400", :class => "img-responsive"
+    %h3= link_to project.title, project
+
+%hr.line
+
+.project-row-header
+  %h2 Mobogenie Screenshots
+.project-item=image_tag "androidphone_college.jpg"
+.project-item=image_tag "androidphone_zombiesuperhero.jpg"

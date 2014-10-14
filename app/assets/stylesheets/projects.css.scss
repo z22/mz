@@ -14,7 +14,6 @@ html {
 
 .line {
   border-bottom: 2px dashed #aaa;
-  margin-bottom: 60px;
   clear: both;
 }
 
@@ -42,6 +41,7 @@ html {
 }
 
 .project-row-header {
+  margin-top: 60px;
   margin-left: 45px;
   margin-bottom: 30px;
   clear: both;

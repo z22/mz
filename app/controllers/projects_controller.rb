@@ -12,7 +12,10 @@ class ProjectsController < ApplicationController
   # GET /projects/1
   # GET /projects/1.json
   def show
+    @projects = Project.all
     @project = Project.find(params[:id])
+    @projects_webdevelopment = @projects.where(category:'webdevelopment', hidden:'false')
+    @projects_graphicdesign = @projects.where(category:'graphicdesign', hidden:'false')
   end
 
   # GET /projects/new
