@@ -57,3 +57,5 @@ gem 'haml'
 gem 'guard-livereload'
 gem 'figaro' #secret token management
 gem 'rails_admin'
+gem 'better_errors', group: :development
+gem 'binding_of_caller', group: :development

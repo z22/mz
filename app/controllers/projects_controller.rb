@@ -5,11 +5,14 @@ class ProjectsController < ApplicationController
   # GET /projects.json
   def index
     @projects = Project.all
+    @projects_webdevelopment = @projects.where(category:'webdevelopment')
+    @projects_graphicdesign = @projects.where(category:'graphicdesign')
   end
 
   # GET /projects/1
   # GET /projects/1.json
   def show
+    @project = Project.find(params[:id])
   end
 
   # GET /projects/new

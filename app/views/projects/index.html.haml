@@ -1,0 +1,47 @@
+/ Projects (projects/index)
+
+%h1.page-header Projects
+
+/ filter by category
+.row.project-types
+  %h3 Web Development
+  %h3 Graphic Design
+
+/ Listing Web Development Projects
+- @projects_webdevelopment.each_with_index do |project, i|
+  .row.col-md-6.project-item
+    = link_to project.url do
+      = image_tag project.image_url, size: "700x400", :class => "img-responsive"
+    %h3= link_to project.title, project
+
+/ Listing Graphic Design Projects
+- @projects_graphicdesign.each_with_index do |project, i|
+  .row.col-md-6.project-item
+    = link_to project.url do
+      = image_tag project.image_url, size: "700x400", :class => "img-responsive"
+    %h3= link_to project.title, project
+
+
+
+
+
+
+/ Pagination
+/ .row.text-center
+/   .col-lg-12
+/     %ul.pagination
+/       %li
+/         = link_to '&laquo;'.html_safe, "#"
+/       %li.active
+/         = link_to 1, "#"
+/       %li
+/         = link_to 2, "#"
+/       %li
+/         = link_to 3, "#"
+/       %li
+/         = link_to 4, "#"
+/       %li
+/         = link_to 5, "#"
+/       %li
+/         = link_to '&raquo;'.html_safe, "#"
+

@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+
+projects = Project.create([{title: 'inspirez', description: 'Randomized quotes and videos.'}, {title:'Startup Landscapes', description:'Categorized Startups using Crunchbase API.'}])
