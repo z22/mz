@@ -2,26 +2,32 @@
 
 %h1.page-header Projects
 
-/ filter by category
+/ filter by category?
 .row.project-types
   %h3 Web Development
   %h3 Graphic Design
 
+%hr.line
+
 / Listing Web Development Projects
+.project-row-header
+  %h2 Web Development
 - @projects_webdevelopment.each_with_index do |project, i|
-  .row.col-md-6.project-item
+  .row.project-item
     = link_to project.url do
       = image_tag project.image_url, size: "700x400", :class => "img-responsive"
     %h3= link_to project.title, project
+
+%hr.line
 
 / Listing Graphic Design Projects
+.project-row-header
+  %h2 Graphic Design
 - @projects_graphicdesign.each_with_index do |project, i|
-  .row.col-md-6.project-item
+  .row.project-item
     = link_to project.url do
       = image_tag project.image_url, size: "700x400", :class => "img-responsive"
     %h3= link_to project.title, project
-
-
 
 
 

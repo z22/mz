@@ -5,8 +5,8 @@ class ProjectsController < ApplicationController
   # GET /projects.json
   def index
     @projects = Project.all
-    @projects_webdevelopment = @projects.where(category:'webdevelopment')
-    @projects_graphicdesign = @projects.where(category:'graphicdesign')
+    @projects_webdevelopment = @projects.where(category:'webdevelopment', hidden:'false')
+    @projects_graphicdesign = @projects.where(category:'graphicdesign', hidden:'false')
   end
 
   # GET /projects/1
