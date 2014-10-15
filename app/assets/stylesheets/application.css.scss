@@ -8,32 +8,12 @@
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300|Kaushan+Script|Alegreya+Sans+SC|Poiret+One|La+Belle+Aurore|Swanky+and+Moo+Moo|Special+Elite|Delius|Amaranth|Architects+Daughter|Over+the+Rainbow|Lato:300,400,700);
 
 
+/*$purple: #8A8AE6;*/
+
 .navbar .button a {
   padding: 3px !important;
 }
 
-.aboutmeicon {
-  margin-left: 450px;
-  margin-top: 10px;
-  position: absolute;
-  height: 38.89px;
-  width: 33.33px;
-}
-
-.navbar-linkedin a:link {
-  background-color: transparent;
-}
-
-.navbar-linkedin a:hover {
-  background-color: transparent;
-}
-
-.navbar-linkedin {
-  position: absolute;
-  right: 0;
-  margin-top: 20px;
-  margin-right: -35px;
-}
 
 
 body {
@@ -49,23 +29,33 @@ html {
   /*background-color: #eee;*/
 }
 
+.iconlinks {
+  float: right;
+  height: 30px;
+  margin-top: -8px;
+  margin-right: 35px;
+  a:hover {
+    background-color: transparent;
+  }
+}
 
 .linkedin {
   height: 30.444px;
   width: 45.222px;
-  position: relative;
   float: left;
   margin-right: 33px;
-  line-height: 33px;
+  img {
+    height: 47px;
+  }
 }
 
 .fa-github-square {
   margin-top: -2px;
-  margin-right: 30px;
+  margin-right: 29px;
 }
 
 .fa-envelope {
-  margin-top: -2px;
+  margin-top: -4px;
 }
 
 .footer {
@@ -78,60 +68,7 @@ html {
   border: none;
 }
 
-.footer-linkedin {
-  margin-left: 200px;
-  margin-top: -23px;
-  height: 25px;
-  width: 25px;
-  background-color: black;
-  display: inline-block !important;
-}
 
-.footer-linkedin img {
-  display: block !important;
-}
-
-.fa-linkedin-square {
-  display: inline-block !important;
-}
-
-.footer-linkedin a {
-  &:hover {
-    background-color: transparent;
-  }
-}
-
-.footer-twitterbird {
-  position: absolute;
-  margin-left: 240px;
-  margin-top: -25px;
-  display: inline-block !important;
-  height: 25px;
-  width: 25px;
-}
-
-.footer-twitterbird a {
-  display: inline-block !important;
-  &:hover {
-    background-color: transparent;
-  }
-}
-
-.footer-github {
-  position: absolute;
-  margin-left: 240px;
-  margin-top: -25px;
-  display: inline-block !important;
-  height: 25px;
-  width: 25px;
-}
-
-.footer-github a {
-  &:hover {
-    background-color: transparent;
-    text-decoration: none;
-  }
-}
 
 .footer-text {
   margin-top: 6px;

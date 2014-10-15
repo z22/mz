@@ -1,0 +1,78 @@
+%h1.page-header About Me
+.skillbox
+  .linkedin-icon
+    =link_to "http://www.linkedin.com/in/melzhang/", style:"color: #fff", target: "_blank" do
+      %i.fa.fa-linkedin-square.fa-4x
+      %p LinkedIn
+  .github-icon
+    =link_to "https://github.com/z22", style:"color: #fff", target:"_blank" do
+      %i.fa.fa-github-square.fa-4x
+      %p Github
+  .email-icon
+    =link_to "mailto:mel.zhang@wellesley.edu", style:"color: #fff", target:"_blank" do
+      %i.fa.fa-envelope.fa-4x
+      %p Email Me
+  .skillsets
+    %hr
+    %h1 Skills
+    %ul.skills
+      %h3 Backend
+      %li Ruby on Rails
+      %li HAML
+      %li Git + Github
+      %li Heroku
+
+    %ul.skills
+      %h3 Frontend
+      %li HTML
+      %li CSS
+      %li Bootstrap
+
+    %ul.skills
+      %h3 ( Currently Learning )
+      %li JavaScript
+      %li MySQL
+      %li SCSS
+      %li X3D
+      %li X3DOM
+
+    %ul.skills
+      %h3 Design
+      %li GIMP
+      %li Photoshop
+
+    %ul.skills
+      %h3 Other
+      %li Jira
+      %li MATLAB
+      %li Data analysis
+      %li Intermediate Chinese
+
+
+
+
+/ .bio
+.blurb
+  %li A 23 year old self-taught Ruby on Rails developer
+  %li Intern at Changyou.com (US)
+  %li B.A. in Neuroscience, Wellesley College, 2013
+
+%h1.page-header-unpredictable Life is Unpredictable
+.life-pts
+  =link_to "http://www.wellesley.edu", target: '_blank' do
+    =image_tag "wellesley_logo.jpg", alt: "Wellesley College"
+  =link_to "http://www.wellesley.edu/neuroscience", target: '_blank' do
+    .life-pts-img=image_tag "brain.svg"
+  %h3 Former Pre-med
+  %p I thought I wanted to attend medical school, so after majoring in neuroscience in college I took post-graduate courses, volunteered at a hospital and clinic, and studied for the entrance exam. I realized it was not a good fit and life was a giant "?".
+  %br
+  =image_tag "ror_logo.svg"
+  %h3 Adventures into Web Development and Design
+  %p After talking with friends and family, I decided to take the leap into the tech industry. I've always had an interest in computers and the web and right now is an exciting time to join in in this incredible space of innovation.
+  %p First Step: Ruby on Rails.
+  %br
+  =link_to "http://www.changyou.com/en/index.shtml", target: '_blank' do
+    =image_tag "cyou.png", alt: "Changyou"
+  %h3 Interning at Changyou.com (US)
+  %p As I delve into the tech world, I'm working on content management, graphic design, and search optimization for Mobogenie, an Android app store. On my own time, I am continuing to learn more development languages and tools.
+

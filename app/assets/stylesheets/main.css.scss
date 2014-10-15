@@ -2,15 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.homepage {
-  position: relative;
-  /*padding-bottom: 400px;*/
-  height: 800px;
-  width: 600px;
-  float: right;
-  margin-right: 200px;
-  margin-top: 0px;
-}
+
 
 
 html {
@@ -19,5 +11,16 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /*background-color: #eee;*/
+}
+
+
+.main-bg {
+  background: image-url('ledge1light_h2000.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  height: 2000px;
+  width: auto;
 }

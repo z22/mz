@@ -2,6 +2,133 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/*Bio*/
+.bio {
+  /*border-left: 2px solid #555;*/
+  margin-left: 20px;
+  height: 2000px;
+  margin-top: -30px;
+}
+
+.blurb {
+  padding-top: 20px;
+  padding-left: 20px;
+  p, li {
+    font-size: 30px;
+    color: #555;
+    font-family: Lato;
+    line-height: 35px;
+  }
+}
+
+.page-header-unpredictable {
+  margin-top: 120px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  color: #8A8AE6;
+  font-family: Ostrich Sans Rounded;
+  font-size: 90px;
+  border-bottom: 2px solid #aaa;
+  width: 50%;
+}
+.life-pts {
+  font-family: Lato;
+  color: #555;
+  img {
+    width: 100px;
+    height: 80px;
+    margin: 20px;
+    float: left;
+  }
+  p {
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: 280px;
+  }
+  h3 {
+    padding-left: 280px;
+  }
+}
+
+.ror {
+  width: 100px;
+  height: 80px;
+  margin: 20px;
+}
+
+
+/*Skills*/
+
+ul.skills {
+  float: left;
+  list-style-type: none;
+  padding: 20px;
+  font-family: Lato;
+  color: #fff;
+  margin-left: 30px;
+
+  li {
+    padding-bottom: 7px;
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+}
+
+
+.skillbox {
+  background-color: rgba(0,0,0,0.7);
+  float: right;
+  margin-top: -32px;
+  padding: 40px;
+  height: 1200px;
+  width: 50%;
+  h1 {
+    color: white;
+    padding-top: 20px;
+  }
+}
+
+
+
+.github-icon, .email-icon, .linkedin-icon {
+  float: left;
+  padding-bottom: 20px;
+  a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+  }
+}
+
+.github-icon {
+  margin-left: 30px;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+.email-icon p {
+  padding-top: 4px;
+}
+
+.skillsets {
+  clear: both;
+}
+
+
+/*old layout*/
+.fa.fa-check {
+  color: #8A8AE6;
+  padding-left: 16px;
+}
+
+.fa-minus {
+  color: #8A8AE6;
+  padding-left: 20px;
+}
+
 .cloud {
   padding-top: 30px;
   height: 90%;
@@ -27,86 +154,4 @@
   /*padding-top: 100px;*/
 }
 
-.iconlinks {
-  padding-bottom: 400px;
-}
 
-.fa.fa-check {
-  color: #8A8AE6;
-  padding-left: 16px;
-}
-
-.fa-minus {
-  color: #8A8AE6;
-  padding-left: 20px;
-}
-
-ul.skills {
-  list-style-type: none;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  font-family: Lato;
-  font-size: 18px;
-  color: #555;
-  margin-left: 0px;
-}
-
-ul.skills li {
-  padding-bottom: 7px;
-}
-
-.skillbox {
-  /*height: 300px;
-  width: 200px;*/
-  background-color: transparent;
-  position: relative;
-  float: right;
-  margin-right: 40px;
-  margin-top: 60px;
-  /*margin-left: 400px;
-  margin-right: 10px;
-  margin-top: 100px;*/
-  /*display: inline;*/
-  border-radius: 7px;
-  border: solid 2px #ccc;
-  padding: 10px;
-}
-
-.bio {
-  /*display: inline;*/
-  background-color: transparent;
-  width: 600px;
-  float: right;
-  margin-right: 150px;
-  margin-top: 0px;
-  padding-left: 10px;
-  padding-top: 100px;
-  color: #555;
-  font-family: Lato;
-  clear: both;
-}
-
-.bio-header {
-  font-family: Bebas Neue;
-  font-size: 60px;
-  border-bottom: 3px #8A8AE6 solid;
-}
-
-.bio p {
-  font-size: 18px;
-  line-height: 115%
-}
-
-.bio a {
-  text-decoration: none;
-  color: #8A8AE6;
-  &:visited {
-    color: #8A8AE6;
-    background-color: transparent;
-  }
-  &:hover {
-    color: #8A8AE6;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-}
